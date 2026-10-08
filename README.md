@@ -20,9 +20,9 @@ The 3D die can be rotated with pointer or touch. Its rotation follows the device
 
 ## Deploy
 
-The project is configured for **Vercel** (`vercel.json`, Next.js framework). Import this repository into a Vercel project; Vercel will detect Next.js and use `npm run build`. No environment variables are required. Connect the GitHub repository to enable automatic preview deployments for branches and production deployment from the selected production branch.
+GitHub Actions builds a static export and deploys it to GitHub Pages on each push to `main`. The Pages build disables the service worker and applies the repository base path automatically.
 
-GitHub Pages is not configured: this project uses Next.js with a shared React Three Fiber canvas and the Next PWA plugin, so it should be deployed with a Next.js host rather than published as a plain static folder.
+The production Next.js app can also be deployed to Vercel; import this repository and use the default Next.js build settings.
 
 ## Built with
 
