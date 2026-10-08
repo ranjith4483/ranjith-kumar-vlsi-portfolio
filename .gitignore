@@ -33,6 +33,9 @@ yarn-error.log*
 /public/workbox-*.js
 /public/sw.js
 
+# local design-tool cache
+/.impeccable/hook.cache.json
+
 # prefer yarn than npm
 package-lock.json
 

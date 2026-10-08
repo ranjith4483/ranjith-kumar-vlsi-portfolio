@@ -1,6 +1,6 @@
 {
-  "name": "R3F Next Starter",
-  "short_name": "R3F Next Starter",
+  "name": "Ranjith Kumar Golagani - Physical Design",
+  "short_name": "Ranjith Golagani",
   "icons": [
     {
       "src": "/icons/apple-touch-icon.png",
@@ -24,6 +24,6 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0b1110",
+  "background_color": "#0b1110"
 }

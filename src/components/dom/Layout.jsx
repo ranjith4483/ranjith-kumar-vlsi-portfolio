@@ -12,9 +12,9 @@ const Layout = ({ children }) => {
       ref={ref}
       style={{
         position: 'relative',
-        width: ' 100%',
-        height: '100%',
-        overflow: 'auto',
+        width: '100%',
+        minHeight: '100vh',
+        overflow: 'visible',
         touchAction: 'auto',
       }}
     >
@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
           width: '100vw',
           height: '100vh',
           pointerEvents: 'none',
+          zIndex: 0,
         }}
         eventSource={ref}
         eventPrefix='client'
